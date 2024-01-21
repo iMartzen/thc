@@ -15,7 +15,8 @@ body {
   border-radius: 8px;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #333;
   text-align: center;
 }
@@ -24,20 +25,20 @@ h2 {
   border-bottom: 2px solid #F922A3;
 }
 
-#questionsContainer div { /* Each question block */
+#questionsContainer div {
   padding: 10px 0;
 }
 
-#questionsContainer div:not(:last-child) { /* Add border to all but last question block */
+#questionsContainer div:not(:last-child) {
   border-bottom: 2px solid #7E0462;
 }
 
-#questionsContainer p { /* Question text */
+#questionsContainer p {
   color: #666;
   margin-top: 10px;
 }
 
-.radio-group { /* Container for radio buttons */
+.radio-group {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
@@ -48,12 +49,13 @@ input[type="radio"] {
   margin: 0 5px;
 }
 
-#submitContainer { /* Submit button container */
+#submitContainer {
   margin-top: 20px;
   text-align: center;
 }
 
-button[type="submit"], input[type="submit"] {
+button[type="submit"],
+input[type="submit"] {
   width: 100%;
   background-color: #0c9b66;
   color: white;
@@ -64,6 +66,66 @@ button[type="submit"], input[type="submit"] {
   font-size: 16px;
 }
 
-button[type="submit"]:hover, input[type="submit"]:hover {
+button[type="submit"]:hover,
+input[type="submit"]:hover {
   background-color: #84d5b9;
+}
+
+details {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+summary {
+  font-weight: bold;
+  color: #727581;
+  cursor: pointer;
+}
+
+summary:hover {
+  color: #004494;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+details p {
+  padding: 5px 0;
+  margin: 0;
+}
+
+details p strong {
+  color: #212529;
+}
+
+.High-score {
+  background-color: #DFF0D8;
+  border-left: 4px solid #28a745;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.Medium-score {
+  background-color: #FCF8E3;
+  border-left: 4px solid #ffc107;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.Low-score {
+  background-color: #F2DEDE;
+  border-left: 4px solid #dc3545;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.copy-button {
+  background-color: #905ff0 !important;
+}
+
+.interpretation-button {
+  background-color: #E10E71 !important;
 }
