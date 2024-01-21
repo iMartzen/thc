@@ -1,0 +1,27 @@
+{
+  "Trust": {
+    "High": "Your team has created an environment where vulnerability and openness are the norm.",
+    "Medium": "Your team may need to get more comfortable being vulnerable and open with one another about individual strengths, weaknesses, mistakes and needs for help",
+    "Low": "Your team lacks necessary levels of openness and vulnerability about individual strengths, weaknesses, mistakes and needs for help."
+  },
+  "Conflict": {
+    "High": "Your team is comfortable engaging in unfiltered discussion around important topics.",
+    "Medium": "Your team may need to learn to engage in more unfiltered discussion around important topics.",
+    "Low": "Your team is not comfortable engaging in unfiltered discussion around important topics."
+  },
+  "Commitment": {
+    "High": "Your team is able to buy-in to clear decisions leaving little room for ambiguity and second-guessing.",
+    "Medium": "Your team may struggle at times to buy-in to clear decisions. This could be creating ambiguity within the organization.",
+    "Low": "Your team is not able to buy-in to clear decisions, leaving room for ambiguity and second-guessing."
+  },
+  "Accountability": {
+    "High": "Your team does not hesitate to confront one another about performance and behavioral concerns.",
+    "Medium": "Your team may be hesitating to confront one another about performance and behavioral concerns.",
+    "Low": "Your team hesitates to confront one another about performance and behavioral concerns."
+  },
+  "Results": {
+    "High": "Your team values collective outcomes more than individual recognition and attainment of status.",
+    "Medium": "Members of your team may be placing too much importance on individual or departmental recognition and ego, rather than focusing on the collective goals of the team.",
+    "Low": "Your team needs to place greater value on the collective achievement of outcomes, rather than individual or departmental recognition and ego."
+  }
+}
